@@ -1,3 +1,7 @@
+.vlt-portfolio-item--style-4 .vlt-portfolio-item-overlay > * {
+  display: flex !important;
+  color: #fff !important;
+}
 
 #awwwards {
 	position: fixed;
