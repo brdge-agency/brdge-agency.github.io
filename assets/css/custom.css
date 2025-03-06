@@ -1,17 +1,18 @@
 /* Custom CSS */
 .vlt-portfolio-item-img {
-    position: relative;
+    position: relative; /* Ensures proper positioning */
 }
 
-.vlt-portfolio-item-img::before {
+.vlt-portfolio-item-img::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 190, 197, 0.4), rgba(0, 190, 197, 0.4));
-    pointer-events: none; /* Ensures the overlay doesn’t interfere with clicks */
+    background: rgba(0, 190, 197, 0.4); /* #00bec5 at 40% opacity */
+    z-index: 1; /* Places the overlay above the image */
+    pointer-events: none; /* Ensures it doesn’t interfere with clicks */
 }
 
 #awwwards {
