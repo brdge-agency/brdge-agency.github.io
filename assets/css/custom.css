@@ -10,7 +10,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 190, 197, 0.4); /* #00bec5 at 40% opacity */
+    background: linear-gradient(to bottom, rgba(10, 122, 134, 0.3), rgba(145, 26, 76, 0.3));
+    filter: contrast(1.5) brightness(0.9) sepia(0.05) opacity(0.95);
     z-index: 1; /* Places the overlay above the image */
     pointer-events: none; /* Ensures it doesn’t interfere with clicks */
 }
