@@ -850,13 +850,13 @@
 		gridAdjustment: 'responsive',
 		mediaQueries: [{
 			width: 1170,
-			cols: 4,
+			cols: 5,
 		}, {
 			width: 767,
-			cols: 2,
+			cols: 4,
 		}, {
 			width: 575,
-			cols: 1,
+			cols: 3,
 		}],
 		displayType: 'default',
 		plugins: {
@@ -906,13 +906,13 @@
 		gridAdjustment: 'responsive',
 		mediaQueries: [{
 			width: 1170,
-			cols: 2,
+			cols: 5,
 		}, {
 			width: 767,
-			cols: 2,
+			cols: 4,
 		}, {
 			width: 575,
-			cols: 1,
+			cols: 3,
 		}],
 		displayType: 'default',
 		plugins: {
