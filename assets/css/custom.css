@@ -1,4 +1,18 @@
 /* Custom CSS */
+.vlt-portfolio-item-img {
+    position: relative;
+}
+
+.vlt-portfolio-item-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 190, 197, 0.4), rgba(0, 190, 197, 0.4));
+    pointer-events: none; /* Ensures the overlay doesn’t interfere with clicks */
+}
 
 #awwwards {
 	position: fixed;
