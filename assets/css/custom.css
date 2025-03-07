@@ -143,7 +143,7 @@
 /* min-width 768px */
 @media (min-width: 768px) {
 	.vlt-portfolio-item--style-4 .vlt-portfolio-item-meta-title {
-  		font-size: 17px;
+  		font-size: 17px !important;
 	}
 	.vlt-custom--5136 {
 		padding-left: 70px;
